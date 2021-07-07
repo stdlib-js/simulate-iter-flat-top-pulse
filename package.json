@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/simulate-iter-flat-top-pulse",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Create an iterator which generates a flat top pulse waveform.",
   "license": "Apache-2.0",
   "author": {
