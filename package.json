@@ -44,6 +44,7 @@
     "@stdlib/assert-is-positive-integer": "^0.0.x",
     "@stdlib/assert-is-positive-number": "^0.0.x",
     "@stdlib/math-base-special-cospi": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/symbol-iterator": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x"
