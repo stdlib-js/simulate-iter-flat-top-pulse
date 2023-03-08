@@ -32,10 +32,14 @@ A flat top pulse waveform is represented by the following equation
 
 <!-- <equation class="equation" label="eq:flat_top_pulse_waveform" align="center" raw="f(t; \tau, A, \varphi) = \begin{align*} A\biggl(a_0 &- a_1 \cos\frac{2\pi (t-\varphi)}{\tau-1} + a_2 \cos\frac{2\pi(t-\varphi)}{\tau-1} \\ &- a_3 \cos\frac{2\pi(t-\varphi)}{\tau-1} + a_4 \cos \frac{2\pi (t-\varphi)}{\tau-1} \biggr)\end{align*}" alt="Equation for a flat top pulse waveform."> -->
 
-<div class="equation" align="center" data-raw-text="f(t; T, \tau, A, \varphi) = \begin{align*} A\biggl(a_0 &amp;- a_1 \cos\frac{2\pi (t-\varphi)}{\tau-1} + a_2 \cos\frac{2\pi(t-\varphi)}{\tau-1} \\ &amp;- a_3 \cos\frac{2\pi(t-\varphi)}{\tau-1} + a_4 \cos \frac{2\pi (t-\varphi)}{\tau-1} \biggr)\end{align*}" data-equation="eq:flat_top_pulse_waveform">
+```math
+f(t; \tau, A, \varphi) = \begin{align*} A\biggl(a_0 &- a_1 \cos\frac{2\pi (t-\varphi)}{\tau-1} + a_2 \cos\frac{2\pi(t-\varphi)}{\tau-1} \\ &- a_3 \cos\frac{2\pi(t-\varphi)}{\tau-1} + a_4 \cos \frac{2\pi (t-\varphi)}{\tau-1} \biggr)\end{align*}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="f(t; T, \tau, A, \varphi) = \begin{align*} A\biggl(a_0 &amp;- a_1 \cos\frac{2\pi (t-\varphi)}{\tau-1} + a_2 \cos\frac{2\pi(t-\varphi)}{\tau-1} \\ &amp;- a_3 \cos\frac{2\pi(t-\varphi)}{\tau-1} + a_4 \cos \frac{2\pi (t-\varphi)}{\tau-1} \biggr)\end{align*}" data-equation="eq:flat_top_pulse_waveform">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@157025f95b239be39ac0c70158f96243f1be978e/lib/node_modules/@stdlib/simulate/iter/flat-top-pulse/docs/img/equation_flat_top_pulse_waveform.svg" alt="Equation for a flat top pulse waveform.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -57,38 +61,30 @@ The coefficients are
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/simulate-iter-flat-top-pulse
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-iterFlatTopPulse = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var iterFlatTopPulse = require( 'path/to/vendor/umd/simulate-iter-flat-top-pulse/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.iterFlatTopPulse;
-})();
-</script>
+var iterFlatTopPulse = require( '@stdlib/simulate-iter-flat-top-pulse' );
 ```
 
 #### iterFlatTopPulse( \[options] )
@@ -293,13 +289,8 @@ var bool = it.next().done;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var iterFlatTopPulse = require( '@stdlib/simulate-iter-flat-top-pulse' );
 
 // Create an iterator:
 var opts = {
@@ -320,11 +311,6 @@ while ( true ) {
     }
     console.log( v.value );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -347,7 +333,7 @@ while ( true ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/simulate/iter/pulse`][@stdlib/simulate/iter/pulse]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a pulse waveform.</span>
+-   <span class="package-name">[`@stdlib/simulate-iter/pulse`][@stdlib/simulate/iter/pulse]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a pulse waveform.</span>
 
 </section>
 
@@ -406,7 +392,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -424,7 +410,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/simulate/iter/pulse]: https://github.com/stdlib-js/simulate-iter-pulse/tree/umd
+[@stdlib/simulate/iter/pulse]: https://github.com/stdlib-js/simulate-iter-pulse
 
 <!-- </related-links> -->
 
