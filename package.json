@@ -44,7 +44,7 @@
     "@stdlib/assert-is-positive-integer": "^0.0.7",
     "@stdlib/assert-is-positive-number": "^0.0.7",
     "@stdlib/math-base-special-cospi": "^0.0.7",
-    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
     "@stdlib/symbol-iterator": "^0.0.7",
     "@stdlib/types": "^0.0.14",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7"
