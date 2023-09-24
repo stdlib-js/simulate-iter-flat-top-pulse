@@ -79,6 +79,11 @@ The coefficients are
 ## Usage
 
 ```javascript
+import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/simulate-iter-flat-top-pulse/tags). For example,
+
+```javascript
 import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@v0.1.0-deno/mod.js';
 ```
 
@@ -285,7 +290,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@v0.1.0-deno/mod.js';
+import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@deno/mod.js';
 
 // Create an iterator:
 var opts = {
