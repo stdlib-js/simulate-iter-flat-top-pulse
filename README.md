@@ -79,7 +79,7 @@ The coefficients are
 ## Usage
 
 ```javascript
-import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@deno/mod.js';
+import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@v0.2.0-deno/mod.js';
 ```
 
 #### iterFlatTopPulse( \[options] )
@@ -285,7 +285,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@deno/mod.js';
+import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@v0.2.0-deno/mod.js';
 
 // Create an iterator:
 var opts = {
