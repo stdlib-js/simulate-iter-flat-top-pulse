@@ -79,6 +79,11 @@ The coefficients are
 ## Usage
 
 ```javascript
+import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/simulate-iter-flat-top-pulse/tags). For example,
+
+```javascript
 import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@v0.2.1-esm/index.mjs';
 ```
 
@@ -290,7 +295,7 @@ var bool = it.next().done;
 <body>
 <script type="module">
 
-import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@v0.2.1-esm/index.mjs';
+import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@esm/index.mjs';
 
 // Create an iterator:
 var opts = {
