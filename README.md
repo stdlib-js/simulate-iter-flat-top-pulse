@@ -81,6 +81,11 @@ The coefficients are
 To use in Observable,
 
 ```javascript
+iterFlatTopPulse = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/simulate-iter-flat-top-pulse/tags). For example,
+
+```javascript
 iterFlatTopPulse = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@v0.2.2-umd/browser.js' )
 ```
 
@@ -93,7 +98,7 @@ var iterFlatTopPulse = require( 'path/to/vendor/umd/simulate-iter-flat-top-pulse
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -312,7 +317,7 @@ var bool = it.next().done;
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
