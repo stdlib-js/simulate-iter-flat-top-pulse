@@ -79,7 +79,7 @@ The coefficients are
 ## Usage
 
 ```javascript
-import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@esm/index.mjs';
+import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@v0.2.3-esm/index.mjs';
 ```
 
 #### iterFlatTopPulse( \[options] )
@@ -290,7 +290,7 @@ var bool = it.next().done;
 <body>
 <script type="module">
 
-import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@esm/index.mjs';
+import iterFlatTopPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-flat-top-pulse@v0.2.3-esm/index.mjs';
 
 // Create an iterator:
 var opts = {
